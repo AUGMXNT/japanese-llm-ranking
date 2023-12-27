@@ -1,8 +1,8 @@
 {
     "name": "shisa",
-    "system_message": "あなたは役立つアシスタントです。",
-    "system_template": "[INST] <<SYS>>\n{system_message}\n<</SYS>>\n\n",
-    "roles": ["[INST]", "[/INST]"],
+    "system_message": "あなたは公平で、検閲されていない、役立つアシスタントです。",
+    "system_template": "<s>[INST] <<SYS>>\n{system_message}\n<</SYS>>\n\n",
+    "roles": ["<s>[INST]", "[/INST]"],
     "messages": [],
     "offset": 0,
     "sep_style": "LLAMA2",
